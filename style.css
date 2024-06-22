@@ -1,0 +1,259 @@
+/* The box shape made for all the pages link */
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #e2dc92;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 60px;
+    width: 60px;
+}
+.logo{
+    background-image: url(Untitled\ 8.png);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+
+.border{
+    border: 1.5px solid black;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* calmstation.in */
+.add-first{
+    color: #f79391;
+    font-size: 1.2rem;
+    margin-top: 2px;
+    text-align: center;
+}
+
+/* india and location icon */
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+    /* text-align: center; */
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    /* margin-left: 3px; */
+}
+
+/* search bar */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f79391;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+}
+
+/* click ons of other pages in navbar */
+.pages{
+    font-size: 1.5rem;
+    display: contents;
+}
+
+/* Index page Calm station intro title */
+h1{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Introduction part */
+#intro{
+    height: 350px;
+    width: 500px;
+    background-color: #ffecbf;
+    text-align: left;
+    font-size: larger;
+}
+/* made with and name */
+footer{
+    background-color: #e2dc92;
+    text-align: center;
+    font-size: larger;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/* Second Page*/
+h2{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+#box_one{
+    height: 250px;
+    width: 400px;
+    background-color: #ffecbf;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border: 5px solid #f79391;
+    text-align: left;
+    border-radius: 14px;
+   display: inline-block;
+}
+
+#box_two{
+    height: 250px;
+    width: 400px;
+    background-color: #e2dc92;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border: 5px solid #f79391;
+    text-align: left;
+    border-radius: 14px;
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+}
+
+
+#box_three{
+    height: 380px;
+    width: 440px;
+    background-color: #ffecbf;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border: 5px solid #f79391;
+    text-align: left;
+    border-radius: 14px;
+    display: inline block;
+    position: absolute;
+    top: 450px;
+}
+
+#box_four{
+    height: 300px;
+    width: 400px;
+    background-color: #e2dc92;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border: 5px solid #f79391;
+    text-align: left;
+    border-radius: 14px;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 500px;
+}
+/* Third page */
+#Library{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+/* Four page  */
+/* THE MAIN TWO CONTAINER */
+#words{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+/* Lathekka and nandini words */
+#container{
+    width:100%;
+    height:600px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+}
+
+#boxone {
+    height: 750px;
+    width: 840px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #f79391;
+    display: inline-block;
+    border: 4px solid #3d331c; 
+    align-content: flex-start;
+}
+#boxone :hover {
+    background-color: #ffecbf;
+}
+
+#boxtwo {
+    height: 550px;
+    width: 650px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #e2dc92;
+    display: inline-block;
+    border: 4px solid #3d331c;
+    align-content: flex-start;
+}
+#boxtwo :hover {
+    background-color: #ffecbf;
+}
+
+
+/* color paper */
+#containertwo{
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#paperone{
+    margin-top: 8px;
+    height: 180px;
+    width: 180px;
+    border: 2px solid black;
+    background-color: #e2dc92;
+    display: inline-block;
+}
