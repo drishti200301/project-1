@@ -239,23 +239,6 @@ h2{
 }
 
 
-/* color paper containertwo{
-    height: 200px;
-    width: 100%;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-#paperone{
-    margin-top: 8px;
-    height: 180px;
-    width: 180px;
-    border: 2px solid black;
-    background-color: #e2dc92;
-    display: inline-block;
-}*/
             h1 {
                 background-color: #e2dc92;
                 display: inline-block;
